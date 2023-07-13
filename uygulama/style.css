@@ -1,0 +1,49 @@
+.navbar{
+    background:#085e7d ;
+}
+.bg-dark{
+    background:#085e7d !important ;
+}
+.card-img-top{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+
+}
+#map{
+    height: 450px;
+}
+
+
+@media (min-width: 576px) { 
+    .card-img-top{
+        height: 20vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-img-top{
+        height: 25vh;
+    }
+    #map{
+        height: 100%;
+    }
+}
+
+@media (min-width: 992px) { 
+    .card-img-top{
+        height: 30vh;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .card-img-top{
+        height: 35vh;
+    }
+}
+
+@media (min-width: 1400px) {
+    .card-img-top{
+        height: 40vh;
+    }
+}
